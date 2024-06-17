@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFFCD;
+    height: 100%;
+    width: 100%;
+}
+
+.BOX1 {
+    display: flex;
+    position: relative;
+    background-color: #EDAF38;
+    width: 710px;
+    height: 45%;
+
+}
+
+.BOX2 {
+    display: flex;
+    position: relative;
+    background-color: #FFFFCD;
+    width: 710px;
+    height: 45%;
+}
+
+.Rectangle1 {
+    display: flex;
+    justify-content :space-between;
+    background-color: #FFFFCD;
+    margin : 2% ;
+    width : 240px;
+    height : 90%;
+}
+
+.Rectangle2 {
+    display: flex;
+    justify-content :center;
+    background-color: #EDAF38;
+    margin : 2%;
+    width : 240px;
+    height : 90%;
+}
+
+.Rectangle3 {
+    display: flex;
+    justify-content :center;
+    align-items: center;
+    background-color: #FFFFCD;
+    margin : 2% 0% 2% 0%;
+    width : 240px;
+    height : 90%;
+}
+
+.Rectangle4 {
+    display: flex;
+    justify-content :center;
+    background-color: #EDAF38;
+    margin : 2% 0% 2% 0%;
+    width : 240px;
+    height : 90%;
+}
