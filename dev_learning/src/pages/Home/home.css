@@ -1,0 +1,15 @@
+.promotion {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 50%;
+    margin: 5% 10% 5% 8%;
+    padding: 24px;
+    gap: 0px;
+    border-radius: 8px ;
+    border: 1px;
+    opacity: 0px;
+    background-color: red;
+    border: 2px;
+    border-color: rgb(237, 211, 211) ;
+}
