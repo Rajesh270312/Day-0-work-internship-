@@ -1,15 +1,49 @@
 .promotion {
     display: flex;
     align-self: center;
-    width: 80%;
-    height: 50%;
-    margin: 5% 10% 5% 8%;
-    padding: 24px;
+    overflow: hidden;
+    width: 90%;
+    height: 30%;
+    margin: 5%;
     gap: 0px;
     border-radius: 8px ;
     border: 1px;
     opacity: 0px;
-    background-color: red;
+    background: rgba(252, 252, 253, 1);
     border: 2px;
-    border-color: rgb(237, 211, 211) ;
+    color: rgb(255, 255, 255);
+    border: solid rgba(241, 241, 243, 1)
+}
+  
+  .promotion-content {
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .promotion-content img {
+    height: 50px; /* Adjust based on your logo size */
+    margin: 20px; /* Space between logos */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .promotion-content::before,
+.promotion-content::after {
+  content: '';
+  display: inline-block;
+}
+
+.promotion-content::before {
+  order: -1; /* Position it at the start */
+}
+
+.promotion-content::after {
+  order: 1; /* Position it at the end */
 }

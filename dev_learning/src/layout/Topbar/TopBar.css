@@ -1,5 +1,8 @@
 
 .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 14px;                           
     font-weight: 400;
@@ -12,9 +15,14 @@
     gap: 23px;
     border-radius: 6px;
     opacity: 0px;
-    background: #FF9500;                 
+    background: #FF9500; 
+    color: white;                
 }
-
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
