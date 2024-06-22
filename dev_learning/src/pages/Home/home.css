@@ -47,3 +47,33 @@
 .promotion-content::after {
   order: 1; /* Position it at the end */
 }
+
+
+.Benefitheading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px; 
+}
+
+.BenefitBox {
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  width: 85rem;
+
+}
+
+.Cardgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.Coursegrid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  width: 100%;
+}

@@ -11,26 +11,24 @@ export function Footer(){
             <div className='item1'>
                 <img 
                     src="devanant_app_private_limited_logo.jpeg" 
-                    className="icon" 
+                    className="logo1" 
                     alt="Logo" 
                 />
-                <div className="contact-item">
-                    <div className="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="10 100 960 960" width="35" target="_blank" style={{padding: "0.6rem"}}><path d="M480 572 176 388v348h608V388L480 572Zm0-76 278-168H202l278 168Zm0 156L160 376v400h640V376L480 652Z"/></svg>
-                        <a href="mailto:girish.shelly@devanant.com" >girish.shelly@devanant.com</a></div>
-                </div>
-                <div className="contact-item">
-                    <div className="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 96 800 400" width="35" target="_blank" style={{padding: "0.6rem"}}><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/></svg>
-                        <a  href="tel:9417142661" >+919417142661 </a></div>
-                </div>
-                <div className="contact-item">
-                    <div className="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 96 800 400" width="35" target="_blank" style={{padding: "0.6rem"}}><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
-                    <span>2070, sector 32A, chandigarh road, Ludhiana, 141010
-                    Punjab</span></div>
+                 <div className="icon1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 96 960 960" width="25" target="_blank" style={{padding: "0.6rem"}}><path d="M480 572 176 388v348h608V388L480 572Zm0-76 278-168H202l278 168Zm0 156L160 376v400h640V376L480 652Z"/></svg>
+                    <a href="mailto:girish.shelly@devanant.com" >girish.shelly@devanant.com</a>
                 </div>
 
+                <div className="icon1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="10 100 800 400" width="25" target="_blank" style={{padding: "0.6rem"}}><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"/></svg>
+                    <a  href="tel:9417142661" >+919417142661 </a>
+                </div>
+            
+                <div className="icon1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 96 800 400" width="25" target="_blank" style={{padding: "0.6rem"}}><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    <span>2070, sector 32A, chandigarh road, Ludhiana, 141010
+                    Punjab</span>
+                </div>
             </div>
             <div className='item2'>
                 <span href=".navbar" className='bold'>Home</span>
