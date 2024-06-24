@@ -1,0 +1,53 @@
+.pricing-toggle-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: rgba(255, 255, 255, 1);
+    align-self: center;
+    border-radius: 6px;
+  }
+  
+  .pricing-section {
+    font-family: 'Be Vietnam Pro',sans-serif;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(247, 247, 248, 1);
+    width: 90%;
+  }
+
+  .pricing-plans-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* padding: 5px; */
+    margin-top: 20px;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .pricing-section p {
+    font-family: 'Be Vietnam Pro',sans-serif;
+    margin-bottom: 20px;
+    color: rgba(89, 89, 90, 1);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pricing-section h2 {
+    font-family: 'Be Vietnam Pro',sans-serif;
+    color: rgba(38, 38, 38, 1);
+    width: 50%;
+    margin-bottom: 10px;    
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+  }

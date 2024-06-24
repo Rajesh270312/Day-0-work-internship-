@@ -17,7 +17,7 @@ export function Navbar(){
     }
 
     const pricingclick=()=>{
-        navigate('/Princing');
+        navigate('/Pricing');
     }
     
     const contactclick=()=>{

@@ -1,0 +1,88 @@
+  .plan-card {
+    background-color: rgba(252, 252, 253, 1);
+
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(241, 241, 243, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan-header {
+    margin: 15px;
+  }
+  
+  .plan-header h3 {
+    font-family: 'Be Vietnam Pro',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.42px;
+    text-align: center;
+    border: 1px solid rgba(255, 234, 204, 1);
+    background: rgba(255, 249, 240, 1);
+    margin-bottom: 5px;
+    color: rgba(38, 38, 38, 1);
+
+  }
+  
+  .plan-price {
+    margin: 25px;
+    font-family: 'Be Vietnam Pro',sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 43.8px;
+    text-align: center;
+    color: rgba(38, 38, 38, 1);
+    }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border: 1px solid rgba(241, 241, 243, 1);
+  }
+
+  .plan-features h4{
+    font-family: 'Be Vietnam Pro',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(38, 38, 38, 1);
+
+  }
+  
+  .feature-item {
+    font-family: 'Be Vietnam Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    color: #555;
+  }
+  
+  .feature-item.included {
+    color: #000;
+  }
+  
+  .feature-item.not-included {
+    color: #aaa;
+  }
+  
+  .plan-button {
+    padding: 10px 20px;
+    background-color: rgba(255, 149, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .plan-button:hover {
+    background-color: #e0a800;
+  }
+  
