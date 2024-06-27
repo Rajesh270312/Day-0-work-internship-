@@ -17,6 +17,7 @@
     background: white;
     color: rgba(38, 38, 38, 1);
     border-radius: 6px;
+    border: 1px solid rgba(241, 241, 243, 1);
   }
 
   .custom-button3 {
@@ -43,8 +44,8 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    Width : Hug (80px);
-    Height :Hug (45px);
+    Width : auto;
+    Height : 45px;
     border: 0;
     gap: 0px;
     opacity: 0px;

@@ -12,7 +12,7 @@ export function HeroSection(){
     
 
     const pricingclick=()=>{
-        navigate('/Princing');
+        navigate('/Pricing');
     }
 
     return(

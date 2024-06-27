@@ -2,10 +2,6 @@
 import './Footer.css'
 
 export function Footer(){
-
-
-
-
     return (
         <div className='footer' style={{fontFamily:"sans-serif", color: " rgba(255, 255, 255, 1)" }}>
             <div className='item1'>

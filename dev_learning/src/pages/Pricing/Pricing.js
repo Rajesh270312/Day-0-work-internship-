@@ -55,13 +55,13 @@ function PricingSection()  {
             <div className="pricing-plans-container">
                 <Pricingcard
                     title="Free Plan"
-                    price="$0/month"
+                    price="$0"
                     features={freePlanFeatures}
                     buttonLabel="Get Started"
                 />
                 <Pricingcard
                     title="Pro Plan"
-                    price="$79/month"
+                    price="$79"
                     features={proPlanFeatures}
                     buttonLabel="Get Started"
                 />

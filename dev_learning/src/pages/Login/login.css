@@ -1,0 +1,111 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 40px;
+  }
+  
+  .login {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40%;
+    gap: 40px;
+    background-color: white;
+  }
+  .login-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+  }
+
+  
+  .login-form-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .login-form-group-remember {
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .login-form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form-group input[type="email"], .login-form-group input[type="password"] {
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color:  rgba(255, 149, 0, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .login-with-google {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-with-google button {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .testimonial-content {
+    margin-top: 20px;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+  
+    .login {
+      order: 1;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .form-group input[type="email"], .form-group input[type="password"] {
+        width: 100%;
+        padding: 8px 8px 8px 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      
+  
+    .login-testimonial {
+      order: 2;
+      margin-top: 20px;
+    }
+  }
+  
