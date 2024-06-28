@@ -16,12 +16,12 @@ export function SignUp(){
                 <SignUpAndTestimonial />
             <Footer/>
         </div>
-    )
+    ) 
 }
 
 function SignUpAndTestimonial(){
     return (
-        <div style={{display:"flex" , justifyContent:"center" , alignSelf:"center", width:"95%" , padding:"35px"}}>
+        <div >
             <div className="signup-container">
                 <div className="signup-testimonial">
                     <h2>Students Testimonials</h2>

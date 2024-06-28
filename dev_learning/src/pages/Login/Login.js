@@ -21,7 +21,7 @@ export function Login(){
 
 function LoginAndTestimonial(){
     return (
-        <div style={{display:"flex" , justifyContent:"center" , alignSelf:"center", width:"95%" , padding:"35px"}}>
+        <div >
             <div className="login-container">
                 <div className="login-testimonial">
                     <h2>Students Testimonials</h2>
