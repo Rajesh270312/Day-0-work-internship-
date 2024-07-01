@@ -21,13 +21,17 @@ export function Home(){
         <Navbar/>
         <HeroSection/>
         <Promotion />
-        <video width="90%" controls style={{
-            borderRadius:"10px",
-            display:"flex",
-            alignSelf:"center",
-            margin:"5%"
-        }}>
-            <source src="bannervideo.mp4" type="video/mp4"/ >
+        <video 
+            width="100%" 
+            controls 
+            style={{
+                borderRadius: "10px",
+                display: "block",
+                margin: "5% auto",
+                maxWidth: "1200px"
+            }}
+            >
+            <source src="bannervideo.mp4" type="video/mp4" />
         </video>
         <Benefits />
         <Courses />
